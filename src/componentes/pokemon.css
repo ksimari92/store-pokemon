@@ -1,0 +1,38 @@
+.pokemon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../poke.png');
+    background-position: center;
+    background-size:cover;
+    border-radius: 100%;
+    width: 15em;
+    height: 15em;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+.img-pokemon{
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.img-pokemon:hover{
+    transform: scale(1.8);
+}
+
+.p-id{
+    margin-bottom: 5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.nombre{
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.tipo{
+    text-align: center;
+}

@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    background-image: url('thumb-1920-661986.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    height: auto;
+    margin-left: 15% ;
+    margin-top: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.titulo-header{
+    font-size: 5rem;
+    color: yellow;
+    font-weight: 700;
+    text-shadow:3px 3px 20px white ;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-cargar{
   color: white;
+  background: red;
+  border-radius: 54px;
+  border: 5px solid black;
+  font-size:1rem;
+  font-weight: 800;
+  padding:15px 25px;
+ text-align: center;
+ margin: 25px;
 }
+ .btn-cargar:hover{
+     background-color: white;
+     color: red;
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ .logo{
+     width: 30%;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ @media (min-width:380px) and (max-width:500px){
+    .container-pokemon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        margin-left: 0;
+    }
+ }
